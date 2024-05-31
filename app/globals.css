@@ -83,3 +83,12 @@ body,
   margin: 0px;
   padding: 0px;
 }
+.fill-on-hover {
+  background-image: linear-gradient(to top, transparent, [your-color]);
+  background-size: 100% 0;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.fill-on-hover:hover {
+  background-size: 100% 100%;
+}
